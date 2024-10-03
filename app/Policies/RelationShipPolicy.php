@@ -13,7 +13,7 @@ class RelationShipPolicy
      */
     public function viewAny(User $user): bool
     {
-        //
+        return false;
     }
 
     /**
@@ -21,7 +21,7 @@ class RelationShipPolicy
      */
     public function view(User $user, RelationShip $relationShip): bool
     {
-        //
+        return false;
     }
 
     /**
@@ -29,7 +29,7 @@ class RelationShipPolicy
      */
     public function create(User $user): bool
     {
-        //
+        return false;
     }
 
     /**
@@ -37,7 +37,7 @@ class RelationShipPolicy
      */
     public function update(User $user, RelationShip $relationShip): bool
     {
-        //
+        return false;
     }
 
     /**
@@ -45,7 +45,7 @@ class RelationShipPolicy
      */
     public function delete(User $user, RelationShip $relationShip): bool
     {
-        //
+        return false;
     }
 
     /**
@@ -53,7 +53,7 @@ class RelationShipPolicy
      */
     public function restore(User $user, RelationShip $relationShip): bool
     {
-        //
+        return false;
     }
 
     /**
@@ -61,6 +61,6 @@ class RelationShipPolicy
      */
     public function forceDelete(User $user, RelationShip $relationShip): bool
     {
-        //
+        return false;
     }
 }
